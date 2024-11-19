@@ -1,0 +1,103 @@
+/* /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: #555;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Form Styles */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+/* Utility Classes */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Cart Message */
+p {
+    text-align: center;
+    margin-top: 20px;
+}
